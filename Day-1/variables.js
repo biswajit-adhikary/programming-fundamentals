@@ -14,3 +14,12 @@ console.log(marks);
 console.log(fullName);
 console.log(PI);
 console.log(text);
+
+// Variable information
+console.log(typeof firstName);
+
+// Escaping
+let doubleQuoted = 'She said, "Hello!"';
+let singleQuoted = "He shouted, 'Wow!'";
+console.log(doubleQuoted);
+console.log(singleQuoted);

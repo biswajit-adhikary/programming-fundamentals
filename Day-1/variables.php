@@ -17,3 +17,24 @@ echo "\n";
 echo PI;
 echo "\n";
 echo $text;
+echo "\n";
+
+// Variable Variables
+$varName = "message";
+$$varName = "Hello, dynamic variable!";
+echo $message;
+echo "\n";
+
+// Variable information
+var_dump($firstName);
+
+// Escaping
+$doubleQuoted = "She said, \"Hello!\"";
+$singleQuoted = 'He shouted, \'Wow!\'';
+echo ($doubleQuoted);
+echo "\n";
+echo ($singleQuoted);
+echo "\n";
+
+// printf (placeholder)
+printf("Her %s name is %s %s", "full", $firstName, $lastName);
