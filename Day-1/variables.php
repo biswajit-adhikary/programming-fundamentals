@@ -6,6 +6,7 @@ $age = 7;
 $isStudent = true;
 $marks = array(95, 99, 98);
 $fullName = "{$firstName} {$lastName}";
+$text = "My name is {$fullName}";
 
 // Constants
 define("PI", 3.14159);
@@ -14,3 +15,5 @@ define("PI", 3.14159);
 echo $fullName;
 echo "\n";
 echo PI;
+echo "\n";
+echo $text;
